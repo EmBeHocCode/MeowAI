@@ -8,7 +8,8 @@ Trước khi sửa code, bắt buộc đọc:
 2. `rules/CORE_PROMPT.md`
 3. `rules/PHASE_GATES.md`
 4. `rules/FILE_EDITING_RULES.md`
-5. `docs/12_CURRENT_STATUS.md`
+5. `rules/RTK_USAGE_RULES.md`
+6. `docs/12_CURRENT_STATUS.md`
 
 ## Vai Trò Của Project
 
@@ -30,6 +31,7 @@ Mục tiêu không phải tạo ChatGPT mới. Mục tiêu là xây một chatbo
 - Không hardcode API key, token, mật khẩu hoặc dữ liệu nhạy cảm.
 - Mỗi thay đổi code phải có test tương ứng nếu ảnh hưởng hành vi bot.
 - Sau khi hoàn thành một mốc, cập nhật `docs/07_BUILD_LOG.md`.
+- Khi chạy terminal, ưu tiên dùng `rtk` nếu phù hợp để giảm output và tiết kiệm token.
 
 ## Lệnh Kiểm Tra Nhanh
 
@@ -38,4 +40,3 @@ cd D:\MeowAI
 $env:PYTHONIOENCODING='utf-8'
 python -m unittest discover -s apps\bot\tests
 ```
-

@@ -50,6 +50,16 @@ Nếu cần cấu hình riêng, dùng `.env` local và không commit.
 
 ## Quy Tắc Test
 
+Ưu tiên dùng RTK cho các lệnh terminal nếu phù hợp, ví dụ:
+
+```powershell
+rtk git status
+rtk read README.md
+rtk find apps -type f
+rtk tsc
+rtk next build
+```
+
 Sau khi sửa bot, chạy:
 
 ```powershell
@@ -59,4 +69,3 @@ python -m unittest discover -s apps\bot\tests
 ```
 
 Nếu không chạy được test, phải ghi rõ lý do.
-
