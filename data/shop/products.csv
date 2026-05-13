@@ -1,0 +1,5 @@
+id,name,category,price,stock,description,use_cases,url
+P001,Cloud Server Starter 1,VPS,179000,12,Gói cloud tiết kiệm cho website mới,landing page;website giới thiệu;dự án sinh viên,/products/cloud-server-starter-1
+P002,VPS Ryzen Basic,VPS,329000,8,Gói VPS cân bằng cho web bán hàng nhỏ,web bán hàng;wordpress;automation nhẹ,/products/vps-ryzen-basic
+P003,Cloud Server Business 4,VPS,449000,5,Gói cloud mạnh hơn cho shop và CRM mini,web bán hàng;crm;api backend,/products/cloud-server-business-4
+P004,Thẻ Game Đa Nền Tảng,Game Card,200000,30,Thẻ game online đa nền tảng,nạp game;quà tặng,/products/the-game-da-nen-tang

@@ -1,0 +1,40 @@
+{"text":"gói nào rẻ nhất shop","intent":"hoi_gia"}
+{"text":"giá bao nhiêu vậy","intent":"hoi_gia"}
+{"text":"cho mình xem bảng giá","intent":"hoi_gia"}
+{"text":"có gói nào rẻ hơn không","intent":"hoi_gia"}
+{"text":"bao tiền vậy shop","intent":"hoi_gia"}
+{"text":"sản phẩm này còn hàng không","intent":"hoi_ton_kho"}
+{"text":"còn không shop","intent":"hoi_ton_kho"}
+{"text":"còn hàng k","intent":"hoi_ton_kho"}
+{"text":"hết hàng chưa vậy","intent":"hoi_ton_kho"}
+{"text":"stock còn nhiêu","intent":"hoi_ton_kho"}
+{"text":"mình cần gói chạy web nhỏ","intent":"tu_van_san_pham"}
+{"text":"tư vấn cho mình gói phù hợp","intent":"tu_van_san_pham"}
+{"text":"nên mua gói nào cho shop online","intent":"tu_van_san_pham"}
+{"text":"có gói nào hợp cho sinh viên không","intent":"tu_van_san_pham"}
+{"text":"web mới thì dùng gói nào","intent":"tu_van_san_pham"}
+{"text":"chuyển khoản được không","intent":"thanh_toan"}
+{"text":"ck dc k","intent":"thanh_toan"}
+{"text":"shop có momo không","intent":"thanh_toan"}
+{"text":"thanh toán sao vậy","intent":"thanh_toan"}
+{"text":"trả tiền bằng gì","intent":"thanh_toan"}
+{"text":"bao lâu nhận được hàng","intent":"giao_hang"}
+{"text":"giao hàng mấy ngày","intent":"giao_hang"}
+{"text":"khi nào nhận được","intent":"giao_hang"}
+{"text":"ship toàn quốc không","intent":"giao_hang"}
+{"text":"mua rồi có đổi được không","intent":"doi_tra"}
+{"text":"đổi trả sao vậy shop","intent":"doi_tra"}
+{"text":"hoàn tiền được không","intent":"doi_tra"}
+{"text":"sản phẩm lỗi thì sao","intent":"doi_tra"}
+{"text":"bảo hành bao lâu","intent":"bao_hanh"}
+{"text":"bh ntn","intent":"bao_hanh"}
+{"text":"có bảo hành không","intent":"bao_hanh"}
+{"text":"lỗi có được bảo hành không","intent":"bao_hanh"}
+{"text":"có mã giảm giá không","intent":"khuyen_mai"}
+{"text":"shop có khuyến mãi gì không","intent":"khuyen_mai"}
+{"text":"coupon còn không","intent":"khuyen_mai"}
+{"text":"có voucher không","intent":"khuyen_mai"}
+{"text":"shop ở đâu vậy","intent":"thong_tin_shop"}
+{"text":"liên hệ shop kiểu gì","intent":"thong_tin_shop"}
+{"text":"thời gian hỗ trợ là khi nào","intent":"thong_tin_shop"}
+{"text":"bên mình tên gì","intent":"thong_tin_shop"}
