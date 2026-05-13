@@ -4,9 +4,9 @@ File này là bản tóm tắt ngắn để không bị loạn khi quay lại pr
 
 ## Hiện Tại Đã Làm Tới Đâu
 
-MeowAI đã hoàn thành Phase 1 và Phase 2 bản nền.
+MeowAI đã hoàn thành Phase 1, Phase 2 bản nền và Phase 3 dataset intent bản đầu.
 
-Bước tiếp theo là Phase 3: mở rộng dataset intent để chuẩn bị train model.
+Bước tiếp theo là Phase 4: train intent classifier bằng dataset hiện có.
 
 Đã có:
 
@@ -26,6 +26,7 @@ Bước tiếp theo là Phase 3: mở rộng dataset intent để chuẩn bị t
 - Bộ luật cứng cho dev/Codex trong `AGENTS.md` và `rules/`.
 - Tài liệu định hướng MeowAI như một hệ thống có bộ não, skill, trí nhớ và vòng học lại.
 - File `data/skills/skill_map.json` để ghi danh sách skill đã có và skill sẽ làm sau.
+- Dataset intent đã có 265 câu, bao gồm câu hỏi chuẩn, viết tắt, Gen Z, câu do dự và câu hỏi hóc búa.
 
 ## Cấu Trúc Cần Nhớ
 
@@ -182,12 +183,12 @@ PYTHONIOENCODING=utf-8 .venv/bin/python -m unittest discover -s apps/bot/tests
 
 ## Bước Tiếp Theo
 
-Bước tiếp theo nên làm là Phase 3 - Dataset Intent:
+Bước tiếp theo nên làm là Phase 4 - Train Intent Classifier:
 
-- Mở rộng `data/intents/training_data.jsonl` từ khoảng 40 câu lên ít nhất 200 câu.
-- Mỗi intent chính nên có ít nhất 15-20 câu.
-- Thêm câu đời thường, viết tắt và sai chính tả nhẹ.
-- Cập nhật `data/intents/labels.md` nếu thêm intent mới.
-- Khi thêm nhóm câu hỏi mới, đối chiếu với `docs/14_BRAIN_AND_SKILLS.md` và `data/skills/skill_map.json`.
+- Tạo script train model intent classifier.
+- Dùng TF-IDF + Logistic Regression trước vì dễ hiểu và dễ giải thích với giảng viên.
+- Lưu model vào `models/`.
+- Tạo report kết quả ở `reports/intent_metrics.md`.
+- Sau khi train xong mới tích hợp model vào ChatEngine.
 
-Sau khi Phase 3 đủ dữ liệu mới sang Phase 4 để train model bằng TF-IDF + Logistic Regression.
+Khi cần thêm dataset mới, vẫn đối chiếu với `docs/14_BRAIN_AND_SKILLS.md` và `data/skills/skill_map.json`.

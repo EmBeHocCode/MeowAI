@@ -104,6 +104,22 @@ Sau khi test:
 - Câu nào bot hiểu sai thì thêm vào dataset.
 - Tăng dần lên 500-1000 câu.
 
+## Nhóm Câu Đời Thường Cần Có
+
+Dataset không chỉ gồm câu hỏi chuẩn. MeowAI cần học thêm các kiểu nói khách hàng thật hay dùng:
+
+- Viết tắt: `ck`, `dc`, `k`, `ko`, `bn`, `bh`, `ntn`, `ib`, `rep`.
+- Gen Z/thân mật: `ổn áp`, `xịn sò`, `slay`, `lụm`, `chốt`, `mềm hơn`, `chát`, `cấn`, `real`, `ní`.
+- Câu mơ hồ: "hmm", "cái đó sao", "mình không biết hỏi sao".
+- Câu do dự: "mắc quá", "mình còn phân vân", "sợ mua về không biết dùng".
+- Câu hóc búa: "vì sao nên tin shop", "nếu web sập lúc nửa đêm thì sao".
+
+Các từ/cụm từ này được ghi riêng tại:
+
+```text
+data/intents/genz_terms.md
+```
+
 ## Lưu Ý Bảo Mật
 
 Nếu dùng tin nhắn khách hàng thật:

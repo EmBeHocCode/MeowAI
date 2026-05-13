@@ -71,7 +71,7 @@ Mục tiêu:
 
 Chỉ bắt đầu khi Phase 1 và Phase 2 đã ổn.
 
-Trạng thái: Chưa bắt đầu.
+Trạng thái: Hoàn thành bản dataset đầu.
 
 Điều kiện hoàn thành:
 
@@ -89,7 +89,7 @@ Mục tiêu:
 
 Chỉ bắt đầu khi Phase 3 đủ dữ liệu.
 
-Trạng thái: Chưa bắt đầu.
+Trạng thái: Bước tiếp theo.
 
 Điều kiện hoàn thành:
 

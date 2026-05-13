@@ -161,3 +161,11 @@ python -m unittest discover -s apps\bot\tests
 - Thêm `rules/SKILL_SYSTEM_RULES.md` để tránh dev thêm skill tùy tiện hoặc gom mọi logic vào một file lớn.
 - Thêm `data/skills/skill_map.json` để ghi các skill hiện có và các skill dự kiến.
 - Quyết định: từ Phase 3 trở đi, dataset và code phải bám theo skill map để MeowAI phát triển có hệ thống, không chỉ là bot rule cứng.
+
+### Mở Rộng Dataset Phase 3
+
+- Mở rộng `data/intents/training_data.jsonl` từ 40 câu lên 265 câu.
+- Thêm các intent mới: `hoi_re_hon`, `so_sanh_san_pham`, `small_talk`, `cau_hoi_kho`, `cam_xuc_do_du`.
+- Thêm nhóm câu viết tắt, Gen Z, câu đời thường, câu do dự và câu hỏi hóc búa.
+- Thêm `data/intents/genz_terms.md` để ghi chú thuật ngữ hiện đại và cách dùng trong dataset.
+- Cập nhật `docs/03_DATASET_PLAN.md` để nhắc rõ dataset phải có câu tự nhiên, không chỉ câu hỏi chuẩn.

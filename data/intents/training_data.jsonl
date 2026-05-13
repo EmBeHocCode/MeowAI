@@ -38,3 +38,228 @@
 {"text":"liên hệ shop kiểu gì","intent":"thong_tin_shop"}
 {"text":"thời gian hỗ trợ là khi nào","intent":"thong_tin_shop"}
 {"text":"bên mình tên gì","intent":"thong_tin_shop"}
+{"text":"giá sao á shop","intent":"hoi_gia"}
+{"text":"nhiêu xèng vậy","intent":"hoi_gia"}
+{"text":"gói này bn tiền","intent":"hoi_gia"}
+{"text":"cho xin giá real với","intent":"hoi_gia"}
+{"text":"bảng giá đâu shop ơi","intent":"hoi_gia"}
+{"text":"mua combo thì giá sao","intent":"hoi_gia"}
+{"text":"giá tháng hay giá một lần","intent":"hoi_gia"}
+{"text":"có phí phát sinh không","intent":"hoi_gia"}
+{"text":"giá này đã gồm hỗ trợ chưa","intent":"hoi_gia"}
+{"text":"shop báo giá nhanh giúp mình","intent":"hoi_gia"}
+{"text":"gói starter nhiêu vậy ní","intent":"hoi_gia"}
+{"text":"giá có ổn áp không","intent":"hoi_gia"}
+{"text":"cho mình xin mức giá thấp nhất","intent":"hoi_gia"}
+{"text":"gói cloud bao tiền một tháng","intent":"hoi_gia"}
+{"text":"mua lâu dài có rẻ hơn không","intent":"hoi_gia"}
+{"text":"còn slot không shop","intent":"hoi_ton_kho"}
+{"text":"hàng còn sẵn không","intent":"hoi_ton_kho"}
+{"text":"gói này còn không z","intent":"hoi_ton_kho"}
+{"text":"còn bao nhiêu cái vậy","intent":"hoi_ton_kho"}
+{"text":"còn suất nào không","intent":"hoi_ton_kho"}
+{"text":"còn key không shop","intent":"hoi_ton_kho"}
+{"text":"hết chưa để mình chốt","intent":"hoi_ton_kho"}
+{"text":"có sẵn để kích hoạt liền không","intent":"hoi_ton_kho"}
+{"text":"còn đủ số lượng cho team mình không","intent":"hoi_ton_kho"}
+{"text":"tồn kho hiện tại sao rồi","intent":"hoi_ton_kho"}
+{"text":"gói business còn hàng không","intent":"hoi_ton_kho"}
+{"text":"mình mua 2 gói còn đủ không","intent":"hoi_ton_kho"}
+{"text":"shop còn bán gói này không","intent":"hoi_ton_kho"}
+{"text":"sản phẩm này còn active không","intent":"hoi_ton_kho"}
+{"text":"còn không hay sold out rồi","intent":"hoi_ton_kho"}
+{"text":"tư vấn mình với shop","intent":"tu_van_san_pham"}
+{"text":"mình mới bắt đầu nên dùng gì","intent":"tu_van_san_pham"}
+{"text":"mình làm đồ án web thì nên chọn gói nào","intent":"tu_van_san_pham"}
+{"text":"web bán hàng nhỏ cần gói nào ổn áp","intent":"tu_van_san_pham"}
+{"text":"mình cần gói dễ dùng cho người mới","intent":"tu_van_san_pham"}
+{"text":"chọn giúp mình cái phù hợp nhất","intent":"tu_van_san_pham"}
+{"text":"shop recommend mình một gói đi","intent":"tu_van_san_pham"}
+{"text":"gói nào chạy wordpress mượt","intent":"tu_van_san_pham"}
+{"text":"mình cần email tên miền riêng","intent":"tu_van_san_pham"}
+{"text":"có combo nào cho web mới không","intent":"tu_van_san_pham"}
+{"text":"mình muốn làm landing page thì sao","intent":"tu_van_san_pham"}
+{"text":"nên lấy hosting hay vps","intent":"tu_van_san_pham"}
+{"text":"mình không rành kỹ thuật thì chọn gì","intent":"tu_van_san_pham"}
+{"text":"shop chọn hộ mình gói vừa tiền","intent":"tu_van_san_pham"}
+{"text":"cần chạy api backend nhỏ thì gói nào","intent":"tu_van_san_pham"}
+{"text":"bank được không","intent":"thanh_toan"}
+{"text":"chuyển khoản ngân hàng nha shop","intent":"thanh_toan"}
+{"text":"có thanh toán momo không","intent":"thanh_toan"}
+{"text":"có qr không mình quét","intent":"thanh_toan"}
+{"text":"pay kiểu gì vậy","intent":"thanh_toan"}
+{"text":"thanh toán trước hay sau","intent":"thanh_toan"}
+{"text":"có xuất hóa đơn không","intent":"thanh_toan"}
+{"text":"trả góp được không","intent":"thanh_toan"}
+{"text":"mình chuyển khoản xong gửi gì","intent":"thanh_toan"}
+{"text":"shop nhận ví điện tử không","intent":"thanh_toan"}
+{"text":"ck xong bao lâu xác nhận","intent":"thanh_toan"}
+{"text":"có cần cọc trước không","intent":"thanh_toan"}
+{"text":"thanh toán qua atm được không","intent":"thanh_toan"}
+{"text":"mình trả bằng thẻ được không","intent":"thanh_toan"}
+{"text":"đơn này thanh toán sao cho nhanh","intent":"thanh_toan"}
+{"text":"bao lâu bàn giao vậy shop","intent":"giao_hang"}
+{"text":"nhận tài khoản qua đâu","intent":"giao_hang"}
+{"text":"mua xong gửi thông tin qua email hả","intent":"giao_hang"}
+{"text":"kích hoạt mất bao lâu","intent":"giao_hang"}
+{"text":"có giao trong ngày không","intent":"giao_hang"}
+{"text":"mua xong có dùng liền được không","intent":"giao_hang"}
+{"text":"shop gửi tài khoản kiểu gì","intent":"giao_hang"}
+{"text":"bàn giao qua zalo được không","intent":"giao_hang"}
+{"text":"mình nhận key ở đâu","intent":"giao_hang"}
+{"text":"khi nào có thông tin đăng nhập","intent":"giao_hang"}
+{"text":"ship digital thì nhận thế nào","intent":"giao_hang"}
+{"text":"bao lâu active dịch vụ","intent":"giao_hang"}
+{"text":"đặt xong chờ lâu không","intent":"giao_hang"}
+{"text":"mua đêm có xử lý không","intent":"giao_hang"}
+{"text":"nhận hàng qua mail hay dashboard","intent":"giao_hang"}
+{"text":"lỡ mua nhầm gói thì đổi được không","intent":"doi_tra"}
+{"text":"không hợp nhu cầu có đổi gói không","intent":"doi_tra"}
+{"text":"hoàn tiền trong bao lâu","intent":"doi_tra"}
+{"text":"dùng thử rồi không ưng thì sao","intent":"doi_tra"}
+{"text":"mình đặt sai sản phẩm thì xử lý sao","intent":"doi_tra"}
+{"text":"dịch vụ lỗi có refund không","intent":"doi_tra"}
+{"text":"đổi sang gói cao hơn được không","intent":"doi_tra"}
+{"text":"nâng cấp có bù tiền không","intent":"doi_tra"}
+{"text":"hạ gói có hoàn phần dư không","intent":"doi_tra"}
+{"text":"mua rồi hủy được không","intent":"doi_tra"}
+{"text":"chính sách hoàn tiền như nào","intent":"doi_tra"}
+{"text":"nếu không chạy được thì shop xử lý sao","intent":"doi_tra"}
+{"text":"đổi gói mất phí không","intent":"doi_tra"}
+{"text":"sai thông tin đơn hàng thì sửa được không","intent":"doi_tra"}
+{"text":"mua nhầm có được hỗ trợ đổi không","intent":"doi_tra"}
+{"text":"bảo hành mấy tháng","intent":"bao_hanh"}
+{"text":"support lỗi trong bao lâu","intent":"bao_hanh"}
+{"text":"có hỗ trợ kỹ thuật không","intent":"bao_hanh"}
+{"text":"lỗi server thì shop có fix không","intent":"bao_hanh"}
+{"text":"bị lỗi đăng nhập thì sao","intent":"bao_hanh"}
+{"text":"gói này có bảo trì không","intent":"bao_hanh"}
+{"text":"hỗ trợ setup ban đầu không","intent":"bao_hanh"}
+{"text":"có bảo hành uptime không","intent":"bao_hanh"}
+{"text":"dịch vụ die thì ai chịu","intent":"bao_hanh"}
+{"text":"shop có hỗ trợ migrate web không","intent":"bao_hanh"}
+{"text":"bị lỗi trong lúc dùng thì liên hệ ai","intent":"bao_hanh"}
+{"text":"bh bao lâu vậy ní","intent":"bao_hanh"}
+{"text":"có cam kết hỗ trợ sau mua không","intent":"bao_hanh"}
+{"text":"hỗ trợ qua zalo hay ticket","intent":"bao_hanh"}
+{"text":"cài đặt không được có ai giúp không","intent":"bao_hanh"}
+{"text":"có deal nào ngon không","intent":"khuyen_mai"}
+{"text":"có mã freeship không","intent":"khuyen_mai"}
+{"text":"có sale hôm nay không","intent":"khuyen_mai"}
+{"text":"giảm thêm được không shop","intent":"khuyen_mai"}
+{"text":"sinh viên có giảm giá không","intent":"khuyen_mai"}
+{"text":"mua nhiều có chiết khấu không","intent":"khuyen_mai"}
+{"text":"có voucher cho khách mới không","intent":"khuyen_mai"}
+{"text":"có ưu đãi tháng này không","intent":"khuyen_mai"}
+{"text":"deal nào đáng lụm nhất","intent":"khuyen_mai"}
+{"text":"mã giảm còn dùng được không","intent":"khuyen_mai"}
+{"text":"có combo khuyến mãi không","intent":"khuyen_mai"}
+{"text":"shop có flash sale không","intent":"khuyen_mai"}
+{"text":"có giảm cho đồ án sinh viên không","intent":"khuyen_mai"}
+{"text":"giá này fix thêm được không","intent":"khuyen_mai"}
+{"text":"có coupon nào active không","intent":"khuyen_mai"}
+{"text":"hotline shop là gì","intent":"thong_tin_shop"}
+{"text":"shop làm việc giờ nào","intent":"thong_tin_shop"}
+{"text":"có fanpage không","intent":"thong_tin_shop"}
+{"text":"liên hệ admin sao vậy","intent":"thong_tin_shop"}
+{"text":"bên mình có zalo hỗ trợ không","intent":"thong_tin_shop"}
+{"text":"shop có uy tín không","intent":"thong_tin_shop"}
+{"text":"địa chỉ công ty ở đâu","intent":"thong_tin_shop"}
+{"text":"có hỗ trợ cuối tuần không","intent":"thong_tin_shop"}
+{"text":"mình cần gặp tư vấn viên","intent":"thong_tin_shop"}
+{"text":"shop tên zeno đúng không","intent":"thong_tin_shop"}
+{"text":"có kênh support nào nhanh nhất","intent":"thong_tin_shop"}
+{"text":"liên hệ sau mua ở đâu","intent":"thong_tin_shop"}
+{"text":"shop online hay có văn phòng","intent":"thong_tin_shop"}
+{"text":"mình muốn gửi feedback thì gửi đâu","intent":"thong_tin_shop"}
+{"text":"ai phụ trách đơn của mình","intent":"thong_tin_shop"}
+{"text":"có gói nào mềm hơn không","intent":"hoi_re_hon"}
+{"text":"mắc quá có cái nào rẻ hơn không","intent":"hoi_re_hon"}
+{"text":"gói này hơi chát có lựa chọn nào khác không","intent":"hoi_re_hon"}
+{"text":"budget mình thấp thì chọn gì","intent":"hoi_re_hon"}
+{"text":"có option tiết kiệm hơn không","intent":"hoi_re_hon"}
+{"text":"mình cần gói rẻ mà dùng ổn","intent":"hoi_re_hon"}
+{"text":"cái nào ngon bổ rẻ nhất","intent":"hoi_re_hon"}
+{"text":"có bản basic hơn không","intent":"hoi_re_hon"}
+{"text":"gói nào giá sinh viên hơn","intent":"hoi_re_hon"}
+{"text":"tầm giá dưới 200k có gì không","intent":"hoi_re_hon"}
+{"text":"gói này khác gói kia gì","intent":"so_sanh_san_pham"}
+{"text":"so sánh starter với ryzen basic giúp mình","intent":"so_sanh_san_pham"}
+{"text":"hosting với vps khác nhau sao","intent":"so_sanh_san_pham"}
+{"text":"nên chọn cloud server hay hosting","intent":"so_sanh_san_pham"}
+{"text":"gói business hơn basic chỗ nào","intent":"so_sanh_san_pham"}
+{"text":"combo web starter có lợi hơn mua lẻ không","intent":"so_sanh_san_pham"}
+{"text":"email business khác hosting thế nào","intent":"so_sanh_san_pham"}
+{"text":"cái nào mạnh hơn để chạy shop","intent":"so_sanh_san_pham"}
+{"text":"so giúp mình hai gói rẻ nhất","intent":"so_sanh_san_pham"}
+{"text":"vps ryzen basic với cloud starter nên lấy cái nào","intent":"so_sanh_san_pham"}
+{"text":"hi shop","intent":"small_talk"}
+{"text":"hello meow","intent":"small_talk"}
+{"text":"hmm","intent":"small_talk"}
+{"text":"ừm để mình xem","intent":"small_talk"}
+{"text":"oke la","intent":"small_talk"}
+{"text":"okie shop","intent":"small_talk"}
+{"text":"cảm ơn nha","intent":"small_talk"}
+{"text":"xịn sò ghê","intent":"small_talk"}
+{"text":"nghe cũng ổn áp đó","intent":"small_talk"}
+{"text":"slay quá shop","intent":"small_talk"}
+{"text":"ní ơi tư vấn nhẹ","intent":"small_talk"}
+{"text":"bro rep mình với","intent":"small_talk"}
+{"text":"để mình suy nghĩ xíu","intent":"cam_xuc_do_du"}
+{"text":"mình còn phân vân","intent":"cam_xuc_do_du"}
+{"text":"nghe hơi cấn nha","intent":"cam_xuc_do_du"}
+{"text":"mắc quá chắc chưa chốt được","intent":"cam_xuc_do_du"}
+{"text":"sợ mua về không biết dùng","intent":"cam_xuc_do_du"}
+{"text":"mình chưa chắc gói này hợp","intent":"cam_xuc_do_du"}
+{"text":"đang lăn tăn giữa hai gói","intent":"cam_xuc_do_du"}
+{"text":"chưa tin lắm shop giải thích thêm được không","intent":"cam_xuc_do_du"}
+{"text":"mình muốn chắc kèo trước khi mua","intent":"cam_xuc_do_du"}
+{"text":"để hỏi bạn rồi quay lại","intent":"cam_xuc_do_du"}
+{"text":"vì sao nên tin shop","intent":"cau_hoi_kho"}
+{"text":"nếu web mình bị sập lúc nửa đêm thì sao","intent":"cau_hoi_kho"}
+{"text":"shop có đảm bảo dữ liệu không mất không","intent":"cau_hoi_kho"}
+{"text":"nếu traffic tăng đột biến thì gói nào chịu được","intent":"cau_hoi_kho"}
+{"text":"mình bị tấn công ddos thì xử lý sao","intent":"cau_hoi_kho"}
+{"text":"shop có đọc được dữ liệu riêng của mình không","intent":"cau_hoi_kho"}
+{"text":"nếu mình dùng sai mục đích thì có bị khóa không","intent":"cau_hoi_kho"}
+{"text":"gói rẻ nhất có đủ chạy production không","intent":"cau_hoi_kho"}
+{"text":"làm sao biết cấu hình thật như mô tả","intent":"cau_hoi_kho"}
+{"text":"nếu sau này muốn nâng cấp không downtime được không","intent":"cau_hoi_kho"}
+{"text":"abcxyz gì đó","intent":"fallback"}
+{"text":"???","intent":"fallback"}
+{"text":"nói gì cũng được","intent":"fallback"}
+{"text":"mình không biết hỏi sao","intent":"fallback"}
+{"text":"cái kia á","intent":"fallback"}
+{"text":"ờ cái đó sao","intent":"fallback"}
+{"text":"bạn hiểu ý mình không","intent":"fallback"}
+{"text":"thôi kệ đi","intent":"fallback"}
+{"text":"alo alo test thôi","intent":"fallback"}
+{"text":"meow meow gì đó","intent":"fallback"}
+{"text":"còn gói nào nhẹ ví hơn không","intent":"hoi_re_hon"}
+{"text":"mình muốn tiết kiệm chi phí nhất có thể","intent":"hoi_re_hon"}
+{"text":"có phương án nào rẻ mà vẫn chạy được web không","intent":"hoi_re_hon"}
+{"text":"gói này vượt ngân sách rồi có bản thấp hơn không","intent":"hoi_re_hon"}
+{"text":"có lựa chọn nào đỡ đau ví hơn không","intent":"hoi_re_hon"}
+{"text":"so giúp mình hosting mini và combo web starter","intent":"so_sanh_san_pham"}
+{"text":"cloud server starter khác vps ryzen basic chỗ nào","intent":"so_sanh_san_pham"}
+{"text":"mua ssl riêng hay mua combo thì lợi hơn","intent":"so_sanh_san_pham"}
+{"text":"gói nào hợp hơn cho web có nhiều ảnh","intent":"so_sanh_san_pham"}
+{"text":"so sánh giúp mình hiệu năng và chi phí","intent":"so_sanh_san_pham"}
+{"text":"nếu shop ngừng hoạt động thì dữ liệu mình sao","intent":"cau_hoi_kho"}
+{"text":"nếu mình quên gia hạn thì web có mất không","intent":"cau_hoi_kho"}
+{"text":"shop xử lý thế nào khi khách bị lỗi thanh toán","intent":"cau_hoi_kho"}
+{"text":"nếu cấu hình không đủ thì có cảnh báo trước không","intent":"cau_hoi_kho"}
+{"text":"dịch vụ có phù hợp để demo đồ án trước hội đồng không","intent":"cau_hoi_kho"}
+{"text":"mình sợ chọn sai gói","intent":"cam_xuc_do_du"}
+{"text":"nghe hay nhưng mình chưa dám mua","intent":"cam_xuc_do_du"}
+{"text":"mình cần thêm lý do để chốt","intent":"cam_xuc_do_du"}
+{"text":"giá hơi căng với mình","intent":"cam_xuc_do_du"}
+{"text":"mình muốn cân nhắc thêm một chút","intent":"cam_xuc_do_du"}
+{"text":"haha để coi đã","intent":"small_talk"}
+{"text":"ok để mình check lại","intent":"small_talk"}
+{"text":"nghe cũng được đó shop","intent":"small_talk"}
+{"text":"...","intent":"fallback"}
+{"text":"không biết nữa","intent":"fallback"}
+{"text":"cái phần đó á","intent":"fallback"}
+{"text":"ý mình là vậy đó","intent":"fallback"}
+{"text":"bạn nói tiếp đi","intent":"fallback"}
