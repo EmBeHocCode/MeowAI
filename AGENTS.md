@@ -33,6 +33,25 @@ Mục tiêu không phải tạo ChatGPT mới. Mục tiêu là xây một chatbo
 - Sau khi hoàn thành một mốc, cập nhật `docs/07_BUILD_LOG.md`.
 - Khi chạy terminal, ưu tiên dùng `rtk` nếu phù hợp để giảm output và tiết kiệm token.
 
+## RTK / Token-saving command rules
+
+When running terminal commands, use RTK where useful to reduce token usage.
+
+On Windows, avoid `rtk ls` because native `ls` may not exist in PATH.
+
+Prefer:
+
+- `rtk git status`
+- `rtk read README.md`
+- `rtk find . -name package.json`
+- `rtk find apps -type f`
+- `rtk npm test` / `rtk pnpm test` when applicable
+- `rtk tsc`
+- `rtk next build`
+- `rtk lint`
+
+Do not use RTK if it hides information needed to debug a problem. In that case, run the normal command after explaining why.
+
 ## Lệnh Kiểm Tra Nhanh
 
 ```powershell
