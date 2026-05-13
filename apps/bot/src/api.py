@@ -101,7 +101,7 @@ def dashboard_summary() -> dict:
     return {
         "service": "MeowAI",
         "status": "online",
-        "phase": "Phase 2 - Product data/search baseline complete",
+        "phase": "Phase 3 - Intent dataset baseline complete",
         "mode": "Rule-based + product CSV",
         "product_count": len(products),
         "total_stock": total_stock,
