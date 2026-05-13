@@ -1,0 +1,78 @@
+{
+  "version": "0.1.0",
+  "description": "Danh sách skill dự kiến của MeowAI. File này giúp định hướng phát triển, chưa bắt buộc tất cả skill đều đã có code.",
+  "skills": [
+    {
+      "id": "product_search",
+      "name": "Tìm sản phẩm",
+      "phase": 2,
+      "status": "baseline_done",
+      "intents": ["hoi_gia", "hoi_ton_kho", "tu_van_san_pham"],
+      "data_sources": ["data/shop/products.csv"],
+      "goal": "Tìm sản phẩm theo tên, danh mục, mô tả và nhu cầu."
+    },
+    {
+      "id": "price_answer",
+      "name": "Trả lời giá",
+      "phase": 2,
+      "status": "baseline_done",
+      "intents": ["hoi_gia"],
+      "data_sources": ["data/shop/products.csv"],
+      "goal": "Trả lời giá sản phẩm hoặc gói rẻ nhất."
+    },
+    {
+      "id": "stock_check",
+      "name": "Kiểm tra tồn kho",
+      "phase": 2,
+      "status": "baseline_done",
+      "intents": ["hoi_ton_kho"],
+      "data_sources": ["data/shop/products.csv"],
+      "goal": "Cho khách biết sản phẩm còn hàng hay không."
+    },
+    {
+      "id": "policy_answer",
+      "name": "Trả lời chính sách",
+      "phase": 2,
+      "status": "baseline_done",
+      "intents": ["thanh_toan", "giao_hang", "doi_tra", "bao_hanh", "khuyen_mai", "thong_tin_shop"],
+      "data_sources": ["apps/bot/src/response_templates.py"],
+      "goal": "Trả lời các chính sách cơ bản của shop."
+    },
+    {
+      "id": "intent_classifier",
+      "name": "Nhận diện ý định bằng model",
+      "phase": 4,
+      "status": "planned",
+      "intents": ["all"],
+      "data_sources": ["data/intents/training_data.jsonl"],
+      "goal": "Dùng model machine learning để đoán intent thay vì chỉ dựa vào từ khóa."
+    },
+    {
+      "id": "conversation_memory",
+      "name": "Trí nhớ cuộc chat",
+      "phase": 5,
+      "status": "planned",
+      "intents": ["all"],
+      "data_sources": ["session_state"],
+      "goal": "Nhớ sản phẩm và nhu cầu vừa được nhắc trong phiên chat."
+    },
+    {
+      "id": "unknown_question_logger",
+      "name": "Ghi log câu chưa hiểu",
+      "phase": 5,
+      "status": "planned",
+      "intents": ["fallback"],
+      "data_sources": ["logs/unknown_questions.jsonl"],
+      "goal": "Lưu lại câu bot chưa hiểu để admin dạy lại."
+    },
+    {
+      "id": "dataset_suggestion",
+      "name": "Gợi ý dataset mới",
+      "phase": 6,
+      "status": "planned",
+      "intents": ["fallback"],
+      "data_sources": ["logs/unknown_questions.jsonl", "data/intents/training_data.jsonl"],
+      "goal": "Giúp admin biến câu chưa hiểu thành dữ liệu train mới."
+    }
+  ]
+}

@@ -153,3 +153,11 @@ python -m unittest discover -s apps\bot\tests
 - Bổ sung link sản phẩm trong câu trả lời nếu dữ liệu có link.
 - Cập nhật trạng thái phase trong `rules/PHASE_GATES.md` và `docs/12_CURRENT_STATUS.md`.
 - Kết quả: Phase 1 và Phase 2 bản nền đã hoàn thành, bước tiếp theo là Phase 3 - mở rộng dataset intent.
+
+### Định Hướng MeowAI Như Một Hệ Thống Có Não Và Skill
+
+- Thêm `docs/13_MEOWAI_GROWTH_PLAN.md` để mô tả MeowAI lớn dần từ phôi, trẻ sơ sinh, trẻ nhỏ, học sinh đến trợ lý shop.
+- Thêm `docs/14_BRAIN_AND_SKILLS.md` để mô tả luồng bộ não: chuẩn hóa câu, hiểu intent, trí nhớ, chọn skill, lấy dữ liệu, trả lời và học lại.
+- Thêm `rules/SKILL_SYSTEM_RULES.md` để tránh dev thêm skill tùy tiện hoặc gom mọi logic vào một file lớn.
+- Thêm `data/skills/skill_map.json` để ghi các skill hiện có và các skill dự kiến.
+- Quyết định: từ Phase 3 trở đi, dataset và code phải bám theo skill map để MeowAI phát triển có hệ thống, không chỉ là bot rule cứng.

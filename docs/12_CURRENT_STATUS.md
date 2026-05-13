@@ -24,6 +24,8 @@ Bước tiếp theo là Phase 3: mở rộng dataset intent để chuẩn bị t
 - GitHub repo đã có code.
 - Cấu trúc đã tách `apps/bot` và `apps/web`.
 - Bộ luật cứng cho dev/Codex trong `AGENTS.md` và `rules/`.
+- Tài liệu định hướng MeowAI như một hệ thống có bộ não, skill, trí nhớ và vòng học lại.
+- File `data/skills/skill_map.json` để ghi danh sách skill đã có và skill sẽ làm sau.
 
 ## Cấu Trúc Cần Nhớ
 
@@ -48,6 +50,9 @@ rules/CORE_PROMPT.md
 rules/PHASE_GATES.md
 rules/FILE_EDITING_RULES.md
 rules/AI_TRAINING_RULES.md
+rules/SKILL_SYSTEM_RULES.md
+docs/13_MEOWAI_GROWTH_PLAN.md
+docs/14_BRAIN_AND_SKILLS.md
 ```
 
 ## Bot Đang Chạy Kiểu Gì
@@ -183,5 +188,6 @@ Bước tiếp theo nên làm là Phase 3 - Dataset Intent:
 - Mỗi intent chính nên có ít nhất 15-20 câu.
 - Thêm câu đời thường, viết tắt và sai chính tả nhẹ.
 - Cập nhật `data/intents/labels.md` nếu thêm intent mới.
+- Khi thêm nhóm câu hỏi mới, đối chiếu với `docs/14_BRAIN_AND_SKILLS.md` và `data/skills/skill_map.json`.
 
 Sau khi Phase 3 đủ dữ liệu mới sang Phase 4 để train model bằng TF-IDF + Logistic Regression.

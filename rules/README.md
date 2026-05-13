@@ -10,6 +10,7 @@ Dev hoặc Codex phải đọc thư mục này trước khi sửa code.
 2. `PHASE_GATES.md` - phase nào được làm, khi nào được qua phase mới.
 3. `FILE_EDITING_RULES.md` - file nào được sửa, file nào cần cẩn thận.
 4. `AI_TRAINING_RULES.md` - nguyên tắc train AI cho đồ án.
+5. `SKILL_SYSTEM_RULES.md` - luật xây skill để MeowAI phát triển có hệ thống.
 
 ## Nguyên Tắc Chung
 
@@ -18,4 +19,4 @@ Dev hoặc Codex phải đọc thư mục này trước khi sửa code.
 - Không đưa công nghệ quá phức tạp nếu chưa cần.
 - Không sửa tài liệu hàng loạt chỉ để "cho đẹp".
 - Mỗi phase phải có kết quả chạy được.
-
+- Skill mới phải có mục tiêu, dữ liệu, output và test tối thiểu.
