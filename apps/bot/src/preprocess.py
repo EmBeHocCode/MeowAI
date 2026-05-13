@@ -11,6 +11,8 @@ SHORT_WORDS = {
     "dc": "duoc",
     "đc": "duoc",
     "ck": "chuyen khoan",
+    "bh": "bao hanh",
+    "ntn": "nhu the nao",
     "ship": "giao hang",
 }
 

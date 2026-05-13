@@ -136,3 +136,20 @@ python -m unittest discover -s apps\bot\tests
 - Thêm proxy `src/app/api/meowai/[...path]/route.ts` để web gọi Python API qua server Next.js.
 - Giữ Python FastAPI làm API backend, không phục vụ HTML tĩnh nữa.
 - Thêm `deploy/meowai-web.service` để chạy web Next.js trên VPS tại `127.0.0.1:3020`.
+
+### Hoàn Thiện Phase 1
+
+- Bổ sung chuẩn hóa viết tắt `bh` thành `bảo hành` và `ntn` thành `như thế nào`.
+- Bổ sung nhận diện câu giao hàng như "bao lâu nhận được".
+- Bổ sung logic hỏi gói rẻ nhất.
+- Thêm test cho nhóm câu hỏi mẫu Phase 1 trong `apps/bot/tests/test_phase1_chatbot.py`.
+- Kết quả: bot rule-based đã đủ ổn để chuyển sang Phase 2.
+
+### Hoàn Thiện Phase 2 Bản Nền
+
+- Mở rộng `data/shop/products.csv` lên 10 sản phẩm mẫu.
+- Bổ sung tìm kiếm sản phẩm theo tên, danh mục, mô tả và nhu cầu.
+- Bổ sung cơ chế bỏ qua từ quá chung để bot không chọn bừa sản phẩm khi câu hỏi mơ hồ.
+- Bổ sung link sản phẩm trong câu trả lời nếu dữ liệu có link.
+- Cập nhật trạng thái phase trong `rules/PHASE_GATES.md` và `docs/12_CURRENT_STATUS.md`.
+- Kết quả: Phase 1 và Phase 2 bản nền đã hoàn thành, bước tiếp theo là Phase 3 - mở rộng dataset intent.

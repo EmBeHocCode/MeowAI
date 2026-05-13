@@ -12,7 +12,7 @@ Mục tiêu:
 - Có README và tài liệu tổng quan.
 - Có luật cứng cho dev/Codex.
 
-Trạng thái: Đang hoàn thiện.
+Trạng thái: Hoàn thành.
 
 Được làm:
 
@@ -35,7 +35,7 @@ Mục tiêu:
 - Trả lời bằng template.
 - Có test cơ bản.
 
-Trạng thái: Gần xong, cần làm chắc hơn.
+Trạng thái: Hoàn thành.
 
 Điều kiện hoàn thành:
 
@@ -53,6 +53,8 @@ Mục tiêu:
 
 Chỉ bắt đầu khi Phase 1 đã ổn.
 
+Trạng thái: Hoàn thành bản nền.
+
 Điều kiện hoàn thành:
 
 - Có ít nhất 10 sản phẩm mẫu.
@@ -69,6 +71,8 @@ Mục tiêu:
 
 Chỉ bắt đầu khi Phase 1 và Phase 2 đã ổn.
 
+Trạng thái: Chưa bắt đầu.
+
 Điều kiện hoàn thành:
 
 - Có ít nhất 200 câu mẫu.
@@ -84,6 +88,8 @@ Mục tiêu:
 - Có báo cáo độ chính xác.
 
 Chỉ bắt đầu khi Phase 3 đủ dữ liệu.
+
+Trạng thái: Chưa bắt đầu.
 
 Điều kiện hoàn thành:
 
@@ -119,4 +125,3 @@ Mục tiêu:
 - Có sơ đồ kiến trúc.
 - Có kịch bản demo.
 - Có phần giải thích vì sao đây là AI tự xây.
-

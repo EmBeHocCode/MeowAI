@@ -15,9 +15,11 @@ POLICY_ANSWERS = {
 
 def product_summary(product: dict) -> str:
     """Tom tat ngan gon mot san pham."""
+    link = product.get("url", "")
+    link_text = f" Link: {link}" if link else ""
     return (
         f"{product['name']} - giá {format_price(product['price'])}, "
-        f"còn {product['stock']} sản phẩm. {product['description']}."
+        f"còn {product['stock']} sản phẩm. {product['description']}.{link_text}"
     )
 
 
@@ -25,7 +27,19 @@ def answer_price(product: dict | None) -> str:
     if not product:
         return "Dạ anh/chị muốn hỏi giá sản phẩm nào ạ? Em chưa tìm thấy sản phẩm phù hợp trong dữ liệu."
 
-    return f"Dạ {product['name']} hiện có giá {format_price(product['price'])} nha."
+    link = product.get("url", "")
+    link_text = f" Xem chi tiết: {link}" if link else ""
+    return f"Dạ {product['name']} hiện có giá {format_price(product['price'])} nha.{link_text}"
+
+
+def answer_lowest_price(product: dict | None) -> str:
+    if not product:
+        return "Dạ hiện tại em chưa có dữ liệu sản phẩm để tìm gói rẻ nhất nha."
+
+    return (
+        f"Dạ gói rẻ nhất hiện tại là {product['name']}, "
+        f"giá {format_price(product['price'])} nha. Xem chi tiết: {product.get('url', '')}"
+    )
 
 
 def answer_stock(product: dict | None) -> str:

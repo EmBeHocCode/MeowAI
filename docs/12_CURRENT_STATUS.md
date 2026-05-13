@@ -4,11 +4,18 @@ File này là bản tóm tắt ngắn để không bị loạn khi quay lại pr
 
 ## Hiện Tại Đã Làm Tới Đâu
 
-MeowAI đang ở cuối Phase 1.
+MeowAI đã hoàn thành Phase 1 và Phase 2 bản nền.
+
+Bước tiếp theo là Phase 3: mở rộng dataset intent để chuẩn bị train model.
 
 Đã có:
 
 - Chatbot rule-based chạy được.
+- Bot hiểu các câu mẫu Phase 1, gồm viết tắt như `ck`, `dc`, `bh`, `ntn`.
+- Bot trả lời được câu hỏi giá rẻ nhất, tồn kho, giao hàng, bảo hành, khuyến mãi và tư vấn sản phẩm.
+- Dữ liệu sản phẩm mẫu đã có 10 sản phẩm trong `data/shop/products.csv`.
+- Tìm kiếm sản phẩm đã tránh chọn bừa khi câu hỏi quá mơ hồ.
+- Câu trả lời về sản phẩm có thể kèm link sản phẩm nếu dữ liệu có link.
 - API `/chat` chạy được trên VPS.
 - Giao diện web Next.js/TSX `/dashboard` và `/chat`.
 - Service `meowai-api.service` chạy nền trên VPS.
@@ -170,17 +177,11 @@ PYTHONIOENCODING=utf-8 .venv/bin/python -m unittest discover -s apps/bot/tests
 
 ## Bước Tiếp Theo
 
-Bước tiếp theo nên làm là hoàn thiện Phase 1 trước:
+Bước tiếp theo nên làm là Phase 3 - Dataset Intent:
 
-- Sửa bot để hiểu các viết tắt như `bh`, `ntn`.
-- Sửa bot để hiểu câu giao hàng như "bao lâu nhận được".
-- Sửa logic hỏi giá rẻ nhất.
-- Thêm test cho 10 câu mẫu.
+- Mở rộng `data/intents/training_data.jsonl` từ khoảng 40 câu lên ít nhất 200 câu.
+- Mỗi intent chính nên có ít nhất 15-20 câu.
+- Thêm câu đời thường, viết tắt và sai chính tả nhẹ.
+- Cập nhật `data/intents/labels.md` nếu thêm intent mới.
 
-Sau đó mới sang Phase 2 nhẹ:
-
-- Thêm nhiều sản phẩm mẫu vào `data/shop/products.csv`.
-- Làm tìm kiếm sản phẩm thông minh hơn một chút.
-- Mở rộng dashboard để quản lý dataset và sản phẩm trực tiếp.
-
-Chưa cần xây dashboard web ngay. Mình nên làm bot chắc trước, rồi dashboard sau.
+Sau khi Phase 3 đủ dữ liệu mới sang Phase 4 để train model bằng TF-IDF + Logistic Regression.

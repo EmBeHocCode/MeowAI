@@ -3,3 +3,9 @@ P001,Cloud Server Starter 1,VPS,179000,12,Gói cloud tiết kiệm cho website m
 P002,VPS Ryzen Basic,VPS,329000,8,Gói VPS cân bằng cho web bán hàng nhỏ,web bán hàng;wordpress;automation nhẹ,/products/vps-ryzen-basic
 P003,Cloud Server Business 4,VPS,449000,5,Gói cloud mạnh hơn cho shop và CRM mini,web bán hàng;crm;api backend,/products/cloud-server-business-4
 P004,Thẻ Game Đa Nền Tảng,Game Card,200000,30,Thẻ game online đa nền tảng,nạp game;quà tặng,/products/the-game-da-nen-tang
+P005,Hosting WordPress Mini,Hosting,99000,20,Hosting nhẹ cho blog và landing page,wordpress;blog;landing page,/products/hosting-wordpress-mini
+P006,Hosting Business SSD,Hosting,249000,10,Hosting SSD cho website bán hàng vừa,web bán hàng;woocommerce;website công ty,/products/hosting-business-ssd
+P007,Email Business Starter,Email,69000,25,Gói email tên miền riêng cho shop nhỏ,email doanh nghiệp;tên miền riêng;hỗ trợ khách hàng,/products/email-business-starter
+P008,SSL Bảo Mật Website,Security,150000,18,Chứng chỉ SSL giúp website chạy HTTPS,bảo mật website;https;ssl,/products/ssl-bao-mat-website
+P009,Backup Cloud 100GB,Backup,120000,14,Gói sao lưu dữ liệu website dung lượng 100GB,backup;sao lưu;khôi phục dữ liệu,/products/backup-cloud-100gb
+P010,Combo Web Starter,Combo,399000,6,Gói combo gồm hosting SSL và email cho website mới,website mới;combo khởi đầu;shop online,/products/combo-web-starter
