@@ -10,10 +10,13 @@ MeowAI đang ở cuối Phase 1.
 
 - Chatbot rule-based chạy được.
 - API `/chat` chạy được trên VPS.
+- Giao diện web Next.js/TSX `/dashboard` và `/chat`.
 - Service `meowai-api.service` chạy nền trên VPS.
+- Service `meowai-web.service` dành cho Next.js web trên VPS.
 - Auto reload khi code Python thay đổi trên VPS.
 - GitHub repo đã có code.
 - Cấu trúc đã tách `apps/bot` và `apps/web`.
+- Bộ luật cứng cho dev/Codex trong `AGENTS.md` và `rules/`.
 
 ## Cấu Trúc Cần Nhớ
 
@@ -23,9 +26,21 @@ MeowAI/
 │  ├─ bot/   # Phần bot thật: API, thuật toán, test
 │  └─ web/   # Dashboard quản lý, chưa xây ở phase này
 ├─ data/     # Dữ liệu sản phẩm, chính sách, dataset intent
+├─ rules/    # Luật cứng: prompt, phase gate, luật sửa file, luật train
 ├─ docs/     # Tài liệu project
 ├─ models/   # Model train sau này
 └─ deploy/   # File service VPS
+```
+
+## File Luật Cứng Cần Đọc Trước Khi Làm
+
+```text
+AGENTS.md
+rules/README.md
+rules/CORE_PROMPT.md
+rules/PHASE_GATES.md
+rules/FILE_EDITING_RULES.md
+rules/AI_TRAINING_RULES.md
 ```
 
 ## Bot Đang Chạy Kiểu Gì
@@ -86,6 +101,26 @@ apps/bot/src/response_templates.py  # Mẫu câu trả lời
 apps/bot/src/chat_engine.py         # Ghép các bước thành chatbot
 apps/bot/src/api.py                 # FastAPI /health và /chat
 apps/bot/run_chat.py                # Chạy chatbot trong terminal
+apps/web/src/app/dashboard/page.tsx # Dashboard quản lý bot
+apps/web/src/app/chat/page.tsx      # Trang chat thử bot
+apps/web/src/components             # Component UI chia theo dashboard/chat/layout
+apps/web/src/lib                    # API client và type TypeScript
+```
+
+## Giao Diện Web
+
+Local:
+
+```text
+http://127.0.0.1:3020/dashboard
+http://127.0.0.1:3020/chat
+```
+
+VPS:
+
+```text
+MeowAI Python API: http://127.0.0.1:8010
+MeowAI Next.js web: http://127.0.0.1:3020
 ```
 
 ## Cách Chạy Terminal Chatbot
@@ -135,10 +170,17 @@ PYTHONIOENCODING=utf-8 .venv/bin/python -m unittest discover -s apps/bot/tests
 
 ## Bước Tiếp Theo
 
-Bước tiếp theo nên làm là Phase 2 nhẹ:
+Bước tiếp theo nên làm là hoàn thiện Phase 1 trước:
+
+- Sửa bot để hiểu các viết tắt như `bh`, `ntn`.
+- Sửa bot để hiểu câu giao hàng như "bao lâu nhận được".
+- Sửa logic hỏi giá rẻ nhất.
+- Thêm test cho 10 câu mẫu.
+
+Sau đó mới sang Phase 2 nhẹ:
 
 - Thêm nhiều sản phẩm mẫu vào `data/shop/products.csv`.
 - Làm tìm kiếm sản phẩm thông minh hơn một chút.
-- Thêm endpoint API để xem danh sách sản phẩm.
+- Mở rộng dashboard để quản lý dataset và sản phẩm trực tiếp.
 
 Chưa cần xây dashboard web ngay. Mình nên làm bot chắc trước, rồi dashboard sau.

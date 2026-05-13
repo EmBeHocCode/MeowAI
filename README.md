@@ -28,6 +28,7 @@ MeowAI/
 │  ├─ bot/               # Bot/service chính: API, thuật toán, test
 │  └─ web/               # Dashboard quản lý, sẽ phát triển ở phase sau
 ├─ data/                 # Dataset và dữ liệu shop
+├─ rules/                # Luật cứng cho dev/Codex khi phát triển project
 ├─ docs/                 # Kế hoạch, giải thích, báo cáo kỹ thuật
 ├─ models/               # Model đã train
 ├─ notebooks/            # Thử nghiệm, phân tích dữ liệu
@@ -40,6 +41,8 @@ MeowAI/
 - Mỗi module làm một việc rõ ràng.
 - Có file note giải thích trước khi code phức tạp.
 - Mỗi phase hoàn thành phải có test và ghi lại vào `docs/07_BUILD_LOG.md`.
+- Dev/Codex phải đọc `AGENTS.md` và thư mục `rules/` trước khi sửa project.
+- Không nhảy phase và không sửa note hàng loạt nếu không cần.
 
 ## Trạng Thái
 
@@ -80,6 +83,13 @@ Endpoint chính:
 ```text
 GET  /health
 POST /chat
+```
+
+Giao diện làm việc chạy bằng Next.js trong `apps/web`:
+
+```text
+http://127.0.0.1:3020/dashboard
+http://127.0.0.1:3020/chat
 ```
 
 Ví dụ test trên terminal VPS `/var/www/MeowAI`:

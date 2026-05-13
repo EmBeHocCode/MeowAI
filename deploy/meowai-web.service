@@ -1,0 +1,15 @@
+[Unit]
+Description=MeowAI Next.js Web
+After=network.target meowai-api.service
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/MeowAI/apps/web
+Environment=NODE_ENV=production
+Environment=MEOWAI_API_BASE=http://127.0.0.1:8010
+ExecStart=/root/.bun/bin/bun run start
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

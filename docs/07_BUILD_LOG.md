@@ -103,3 +103,36 @@ python -m unittest discover -s apps\bot\tests
 
 - Dọn thư mục cache Python cũ trên VPS sau khi refactor, nên root không còn `src/` và `tests/` cũ.
 - Thêm `docs/12_CURRENT_STATUS.md` để tóm tắt project đang ở đâu, bot chạy kiểu gì và bước tiếp theo là gì.
+
+### Thêm Luật Cứng Cho Dev/Codex
+
+- Thêm `AGENTS.md` ở gốc project để dev/Codex biết phải đọc luật trước khi sửa.
+- Thêm thư mục `rules/` để chứa prompt cứng, phase gate, luật sửa file và luật train AI.
+- Cập nhật `README.md`, `docs/12_CURRENT_STATUS.md` và `docs/01_TIMELINE.md` để nhắc rõ quy trình phát triển theo phase.
+- Quyết định: trước khi train model, project phải hoàn thiện Phase 1 và có dataset đủ tốt.
+
+### Thêm Giao Diện Chat Thử
+
+- Thêm `apps/web/index.html` làm giao diện chat thử MeowAI trên trình duyệt.
+- Thêm `apps/web/static/app.css` và `apps/web/static/app.js` cho giao diện và xử lý gọi API.
+- Cập nhật `apps/bot/src/api.py` để phục vụ giao diện tại `/` và static files tại `/static`.
+- Giao diện gọi cùng endpoint `POST /chat`, nên không cần nhập câu hỏi trong CMD nữa khi demo.
+
+### Tách Web Thành Cấu Trúc Dashboard Rõ Ràng
+
+- Tách giao diện web thành `apps/web/pages/` và `apps/web/static/`.
+- Thêm trang `/dashboard` để xem trạng thái bot, số sản phẩm, số câu dataset, danh sách intent và bảng sản phẩm.
+- Thêm trang `/chat` để chat thử với bot.
+- Tách CSS thành `base.css`, `layout.css`, `components.css`, `dashboard.css`, `chat.css`.
+- Tách JS thành `api-client.js`, `ui.js`, `dashboard-page.js`, `chat-page.js`.
+- Thêm API dashboard: `/api/dashboard/summary`, `/api/products`, `/api/intents`.
+
+### Chuyển Web Sang Next.js TSX
+
+- Chuyển `apps/web` từ HTML tĩnh sang Next.js App Router bằng TSX.
+- Thêm cấu trúc giống hướng `ZALO-BotChat/apps/web`: `src/app`, `src/components`, `src/lib`.
+- Thêm trang `src/app/dashboard/page.tsx` cho dashboard.
+- Thêm trang `src/app/chat/page.tsx` cho chat thử.
+- Thêm proxy `src/app/api/meowai/[...path]/route.ts` để web gọi Python API qua server Next.js.
+- Giữ Python FastAPI làm API backend, không phục vụ HTML tĩnh nữa.
+- Thêm `deploy/meowai-web.service` để chạy web Next.js trên VPS tại `127.0.0.1:3020`.
