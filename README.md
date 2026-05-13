@@ -45,6 +45,12 @@ MeowAI/
 
 Đang ở phase 1: chatbot terminal rule-based.
 
+Nếu bị loạn, mở file này trước:
+
+```text
+docs/12_CURRENT_STATUS.md
+```
+
 Chạy thử ở local Windows:
 
 ```powershell

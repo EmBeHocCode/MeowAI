@@ -98,3 +98,8 @@ python -m unittest discover -s apps\bot\tests
 - Project được tách thành hai phần rõ ràng: `apps/bot` xử lý thuật toán chatbot, `apps/web` dành cho dashboard quản lý.
 - Cách tách này giúp code dễ mở rộng: sau này thêm dashboard không làm rối phần thuật toán bot.
 - Bot API vẫn chạy độc lập trên VPS, dashboard chỉ gọi API để quản lý và test bot.
+
+### Dọn Lại Trạng Thái Project
+
+- Dọn thư mục cache Python cũ trên VPS sau khi refactor, nên root không còn `src/` và `tests/` cũ.
+- Thêm `docs/12_CURRENT_STATUS.md` để tóm tắt project đang ở đâu, bot chạy kiểu gì và bước tiếp theo là gì.
