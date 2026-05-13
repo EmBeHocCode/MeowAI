@@ -1,6 +1,6 @@
 """Nhan dien intent bang luat tu khoa don gian."""
 
-from src.preprocess import normalize_text
+from apps.bot.src.preprocess import normalize_text
 
 
 INTENT_KEYWORDS = {

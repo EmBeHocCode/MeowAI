@@ -3,10 +3,10 @@
 import csv
 from pathlib import Path
 
-from src.preprocess import normalize_text
+from apps.bot.src.preprocess import normalize_text
 
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 PRODUCTS_FILE = PROJECT_ROOT / "data" / "shop" / "products.csv"
 
 

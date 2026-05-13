@@ -2,8 +2,8 @@
 
 import unittest
 
-from src.chat_engine import ChatEngine
-from src.intent_rules import detect_intent
+from apps.bot.src.chat_engine import ChatEngine
+from apps.bot.src.intent_rules import detect_intent
 
 
 class Phase1ChatbotTest(unittest.TestCase):

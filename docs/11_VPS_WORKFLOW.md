@@ -124,7 +124,7 @@ journalctl -u meowai-api.service -f
 Service đang chạy bằng lệnh:
 
 ```bash
-/var/www/MeowAI/.venv/bin/python -m uvicorn src.api:app --host 127.0.0.1 --port 8010 --reload
+/var/www/MeowAI/.venv/bin/python -m uvicorn apps.bot.src.api:app --host 127.0.0.1 --port 8010 --reload
 ```
 
 Ý nghĩa:

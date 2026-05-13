@@ -14,12 +14,12 @@ Mục tiêu:
 File sẽ tạo:
 
 ```text
-src/preprocess.py
-src/intent_rules.py
-src/product_search.py
-src/response_templates.py
-src/chat_engine.py
-run_chat.py
+apps/bot/src/preprocess.py
+apps/bot/src/intent_rules.py
+apps/bot/src/product_search.py
+apps/bot/src/response_templates.py
+apps/bot/src/chat_engine.py
+apps/bot/run_chat.py
 ```
 
 ## Bước 2 - Test Bằng 10 Câu Mẫu

@@ -24,6 +24,20 @@ MeowAI API
 Trả lời về website
 ```
 
+## Cấu Trúc Ứng Dụng
+
+```text
+MeowAI/
+├─ apps/
+│  ├─ bot/   # Bot API, thuật toán xử lý chat, test
+│  └─ web/   # Dashboard quản lý, phát triển ở phase sau
+├─ data/     # Sản phẩm, chính sách, dataset intent
+├─ models/   # Model đã train
+└─ docs/     # Tài liệu và build log
+```
+
+`apps/bot` là phần lõi. Dashboard ở `apps/web` chỉ quản lý và gọi API, không chứa thuật toán chatbot chính.
+
 ## Các Module Chính
 
 ### 1. Preprocess

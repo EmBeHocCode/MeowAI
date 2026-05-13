@@ -24,13 +24,14 @@ Project sẽ đi theo lộ trình dễ hiểu:
 
 ```text
 MeowAI/
+├─ apps/
+│  ├─ bot/               # Bot/service chính: API, thuật toán, test
+│  └─ web/               # Dashboard quản lý, sẽ phát triển ở phase sau
 ├─ data/                 # Dataset và dữ liệu shop
 ├─ docs/                 # Kế hoạch, giải thích, báo cáo kỹ thuật
 ├─ models/               # Model đã train
 ├─ notebooks/            # Thử nghiệm, phân tích dữ liệu
-├─ reports/              # Báo cáo, hình ảnh, kết quả test
-├─ src/                  # Mã nguồn MeowAI
-└─ tests/                # Test đơn giản
+└─ reports/              # Báo cáo, hình ảnh, kết quả test
 ```
 
 ## Nguyên Tắc Code
@@ -49,7 +50,7 @@ Chạy thử ở local Windows:
 ```powershell
 cd D:\MeowAI
 $env:PYTHONIOENCODING='utf-8'
-python run_chat.py
+python apps\bot\run_chat.py
 ```
 
 Chạy test:
@@ -57,7 +58,7 @@ Chạy test:
 ```powershell
 cd D:\MeowAI
 $env:PYTHONIOENCODING='utf-8'
-python -m unittest discover -s tests
+python -m unittest discover -s apps\bot\tests
 ```
 
 ## Chạy API Trên VPS

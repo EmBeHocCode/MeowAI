@@ -1,6 +1,6 @@
 """Chay chatbot MeowAI tren terminal."""
 
-from src.chat_engine import ChatEngine
+from apps.bot.src.chat_engine import ChatEngine
 
 
 def main() -> None:

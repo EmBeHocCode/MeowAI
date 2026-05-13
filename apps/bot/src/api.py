@@ -3,8 +3,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
-from src.chat_engine import ChatEngine
-from src.intent_rules import detect_intent
+from apps.bot.src.chat_engine import ChatEngine
+from apps.bot.src.intent_rules import detect_intent
 
 
 app = FastAPI(

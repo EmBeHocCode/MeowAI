@@ -38,10 +38,10 @@ Bot: Dạ gói rẻ nhất hiện tại là Cloud Server Starter 1, giá 179.000
 
 Kết quả cần có:
 
-- `src/preprocess.py`
-- `src/intent_rules.py`
-- `src/response_templates.py`
-- `src/chat_engine.py`
+- `apps/bot/src/preprocess.py`
+- `apps/bot/src/intent_rules.py`
+- `apps/bot/src/response_templates.py`
+- `apps/bot/src/chat_engine.py`
 - Test bằng terminal.
 
 ## Phase 2 - Dữ Liệu Shop Mẫu
@@ -56,7 +56,7 @@ Kết quả cần có:
 
 - `data/shop/products.csv`
 - `data/shop/policies.md`
-- `src/product_search.py`
+- `apps/bot/src/product_search.py`
 
 ## Phase 3 - Dataset Intent
 
@@ -89,7 +89,7 @@ Công nghệ đề xuất:
 
 Kết quả cần có:
 
-- `src/train_intent.py`
+- `apps/bot/src/train_intent.py`
 - `models/intent_classifier.pkl`
 - Báo cáo kết quả trong `reports/intent_metrics.md`
 
@@ -108,7 +108,7 @@ Công nghệ đề xuất:
 
 Kết quả cần có:
 
-- `src/api.py`
+- `apps/bot/src/api.py`
 - Endpoint `POST /chat`
 - Hướng dẫn tích hợp web.
 

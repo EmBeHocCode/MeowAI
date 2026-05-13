@@ -1,8 +1,8 @@
 """Dieu phoi chatbot: intent -> tim du lieu -> tao cau tra loi."""
 
-from src.intent_rules import detect_intent
-from src.product_search import find_product, find_products_by_need, load_products
-from src.response_templates import (
+from apps.bot.src.intent_rules import detect_intent
+from apps.bot.src.product_search import find_product, find_products_by_need, load_products
+from apps.bot.src.response_templates import (
     answer_consult,
     answer_fallback,
     answer_policy,

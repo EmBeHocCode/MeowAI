@@ -1,6 +1,6 @@
 """Cac mau cau tra loi cho chatbot ban hang."""
 
-from src.product_search import format_price
+from apps.bot.src.product_search import format_price
 
 
 POLICY_ANSWERS = {
